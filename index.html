@@ -4,9 +4,404 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <title>BIG CATS</title>
   </head>
   <body>
-    Lorem ipsum dolor sit amet.
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+          <a class="navbar-brand fst-italic" href="#">NATURE-FX</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="my-5">
+      <!-- <div class="container"> -->
+      <div class="row container m-auto">
+        <div class="col-md-5">
+          <h1 class="mt-5">BIG CATS</h1>
+          <p class="mt-3">
+            A Tribute to the most beautiful and elegant creatures nature has to
+            offer.
+          </p>
+          <p class="mt-3">
+            Big cats are truly magnificent creatures that inspire awe and
+            admiration in people all over the world. Whether it's the regal
+            lion, the sleek cheetah, or the elusive snow leopard, these majestic
+            animals are the epitome of grace, power, and beauty.
+          </p>
+          <button type="button" class="btn btn-dark mt-2">Find Out More</button>
+        </div>
+        <div class="col-md-7">
+          <img
+            class="img-fluid"
+            src="/assets/leonard-von-bibra-L4-BDd01wmM-unsplash.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="carousel my-5">
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1000">
+              <img
+                src="/assets/catherine-merlin-l20Mddl4gHY-unsplash.jpg"
+                class="d-block w-100 h-50"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>A Jaguar</h5>
+                <p class="fw-bold">
+                  Jaguars, also known as Panthera onca, are large and powerful
+                  carnivorous animals native to the Americas. They are the third
+                  largest big cat in the world and are the largest cat in the
+                  Americas. Jaguars have a distinctive appearance, with their
+                  golden-yellow fur covered in dark spots, known as rosettes.
+                  These spots help to camouflage them in their forested
+                  habitats. They have a muscular build and are known for their
+                  powerful bite, which is strong enough to pierce the thick hide
+                  of their prey.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+              <img
+                src="/assets/kartik-iyer-XCg1BQf-fso-unsplash.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>A Tiger</h5>
+                <p class="fw-bold">
+                  Tigers are majestic and powerful creatures that belong to the
+                  cat family, Felidae. They are easily recognizable by their
+                  distinctive orange coat with black stripes, white belly, and
+                  long, muscular body. They are the largest members of the cat
+                  family, with males weighing up to 600 pounds and reaching up
+                  to 10 feet in length, including the tail. Females are slightly
+                  smaller, weighing up to 400 pounds and reaching up to 9 feet
+                  in length. Tigers are found primarily in Asia, from the
+                  forests of India and Nepal to the rainforests of Southeast
+                  Asia and the Russian Far East. There are six subspecies of
+                  tigers: Bengal, Indochinese, Malayan, Siberian, South China,
+                  and Sumatran. Unfortunately, all of these subspecies are
+                  considered endangered due to habitat loss and poaching. Tigers
+                  are solitary animals and are known for their hunting prowess.
+                  They are apex predators and can take down prey much larger
+                  than themselves, such as water buffalo and deer. Tigers are
+                  also excellent swimmers and are one of the few species of big
+                  cats that enjoy swimming.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+              <img
+                src="/assets/robert-thiemann-7n8xMUZc42E-unsplash.jpg"
+                class="d-block w-100 img-fluid"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>A Snow Leopard</h5>
+                <p class="fw-bold">
+                  Snow leopards, also known as "ghosts of the mountains," are
+                  one of the most elusive and endangered big cats in the world.
+                  They are native to the high mountain ranges of Central Asia,
+                  including the Himalayas, Altai Mountains, and the Tibetan
+                  Plateau. These majestic creatures are known for their stunning
+                  grey-white fur, which helps them blend in with their rocky
+                  surroundings. Their thick, furry tails act as a counterbalance
+                  when they are jumping or climbing, while their large, wide
+                  paws help them to move easily through the snow. Snow leopards
+                  are solitary animals, and they are most active at dawn and
+                  dusk. They are ambush predators, preying on a variety of
+                  animals including blue sheep, ibex, and marmots. They have
+                  also been known to hunt domestic livestock, which has put them
+                  in conflict with local herders.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="accordion container" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              Are big cats endangered?
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body bg-dark text-white">
+              Yes, many species of big cats are endangered. According to the
+              International Union for Conservation of Nature (IUCN) Red List,
+              several species of big cats, including the tiger, lion, leopard,
+              and cheetah, are listed as either endangered or vulnerable.
+              Habitat loss, poaching, and human-wildlife conflict are some of
+              the main reasons for their decline in numbers. Additionally, the
+              illegal trade in big cat parts, such as skins and bones, is a
+              significant threat to their survival. Conservation efforts are
+              underway to protect these magnificent animals, including habitat
+              protection, anti-poaching efforts, and captive breeding programs.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              How many species of big cats are there?
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body bg-dark text-white">
+              There are five recognized species of big cats: the lion, tiger,
+              leopard, jaguar, and snow leopard. However, some people also
+              consider the cougar (also known as the puma or mountain lion) to
+              be a big cat, which would make six species in total. All of these
+              cats are members of the genus Panthera, except for the snow
+              leopard, which is classified in the genus Uncia.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              What makes a big cat?
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body bg-dark text-white">
+              Big cats are a group of large predatory felines that are found in
+              various parts of the world. They are called "big" because of their
+              size, strength, and hunting abilities compared to other cats. The
+              term "big cat" generally refers to the five members of the
+              Panthera genus: lions, tigers, leopards, jaguars, and snow
+              leopards. These cats are distinguished from other felines by their
+              ability to roar (due to a special bone in their throats), their
+              size, and their hunting abilities. Generally, a big cat is
+              considered to be any feline that weighs over 50 kilograms (110
+              pounds). Lions and tigers are the largest of the big cats, with
+              adult males weighing up to 500 kilograms (1,100 pounds) in the
+              case of some Siberian tigers. Leopards and jaguars are slightly
+              smaller, with adult males weighing up to 90 kilograms (200
+              pounds), while snow leopards are the smallest, with males weighing
+              up to 75 kilograms (165 pounds). In addition to their size, big
+              cats are known for their strength, agility, and sharp teeth and
+              claws, which they use to hunt large prey. They are also solitary
+              hunters, with the exception of lions, which live in social groups
+              called prides.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- </div> -->
+    </main>
+    <div class="bg-dark">
+      <footer class="py-5 text-white container">
+        <div class="row">
+          <div class="d-flex justify-content-around">
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Home</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Features</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">Pricing</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">FAQs</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-white">About</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-5 offset-md-1 mb-3">
+              <form>
+                <h5>Subscribe to our newsletter</h5>
+                <p>Monthly digest of what's new and exciting from us.</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden"
+                    >Email address</label
+                  >
+                  <input
+                    id="newsletter1"
+                    type="text"
+                    class="form-control"
+                    placeholder="Email address"
+                  />
+                  <button class="btn btn-primary" type="button">
+                    Subscribe
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"
+        >
+          <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3">
+              <a class="link-dark" href="#"
+                ><svg class="bi" width="24" height="24">
+                  <use xlink:href="#twitter" /></svg
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a class="link-dark" href="#"
+                ><svg class="bi" width="24" height="24">
+                  <use xlink:href="#instagram" /></svg
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a class="link-dark" href="#"
+                ><svg class="bi" width="24" height="24">
+                  <use xlink:href="#facebook" /></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
