@@ -1,3 +1,11 @@
-.main {
-    z-index: 1;
+.carousel-img {
+    /* width: 800px; */
+    height: 600px;
+    margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-img {
+        height: 400px;
+    }
 }
